@@ -1,0 +1,37 @@
+ cau truc 
+ vd 
+ ten pro la admin 
+ fleg gonm index  new 
+ wed -> controller-> resources ->view
+ wed ->admin -> adimn.blade.php ->admin/indeix
+// duongdan
+// Route::prefix("tenfile")->group(function(){
+    // Route::get("/",'App\Http\Controllers\tenfile@index'); put mach post get delete
+// });
+// /table
+// Target class [App\Http\Controllers\table] does not exist. khong tim thay file trong controler
+// chu y
+ wed = duong dan
+// make:controller=dieu huong trang 
+// make:middleware=uu tien 
+// make:migration = tao bang 
+// make:model = su dung bang
+//cache toi uu trang 
+lenh tao 
+//php artisan make:controller table
+// tao file
+//Method App\Http\Controllers\table::index does not exist. khong class
+lenh tao 
+// make:migration tao bang
+//php artisan make:migration tenfile create=ten
+   public function up()
+    {
+        Schema::create('password_resets', function (Blueprint $table) {
+            $table->string('email');
+            $table->string('token');
+            $table->timestamp;
+        });
+    }
+tao bang gom email token create and...
+tuong tu 
+tu hoc.....
