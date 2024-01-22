@@ -35,3 +35,26 @@ lenh tao
 tao bang gom email token create and...
 tuong tu 
 tu hoc.....
+make:migration tao bang
+https://www.youtube.com/watch?v=g-63ClKANsM
+ make:model = su dung bang
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Admin extends Model
+{
+        protected $table = 'admin';
+        protected $fillable = ['id','name','img','loai','gia','created_at'];
+      
+        
+}
+make:middleware=uu tien 
+https://www.youtube.com/watch?v=lCAEB23L_Xw&t=1609s
+bài tập cuối viết 1 trang admin dùng laravel bằng tailwindcss.com 
+gồm  những gì đã học 
+code mẫu 
+https://github.com/binhantt/imd
