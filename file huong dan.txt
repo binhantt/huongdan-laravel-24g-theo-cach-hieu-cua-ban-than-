@@ -6,7 +6,7 @@
  wed ->admin -> adimn.blade.php ->admin/indeix
 // duongdan
 // Route::prefix("tenfile")->group(function(){
-    // Route::get("/",'App\Http\Controllers\tenfile@index'); put mach post get delete
+    // Route::get("/",'App\Http\Controllers\tenfile@index'); các phương thức put mach post get delete
 // });
 // /table
 // Target class [App\Http\Controllers\table] does not exist. khong tim thay file trong controler
